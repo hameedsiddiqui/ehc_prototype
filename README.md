@@ -31,7 +31,7 @@ source /ehc_prototype/sql/ddl.sql
 ```
 
 # Data
-The data it uses is very sensitive, and cannot be publicly shared. however, for you ta work with real data, you can put all data the data/all_data folder. Each along with image files, each image file should be named as `filename_label.jpg` where label indicates the classified label of the image. the model will automatically extract this information.
+The data it uses is very sensitive, and cannot be publicly shared. however, for you to work with real data, you can put all data the data/all_data folder. Each along with image files, each image file should be named as `filename_label.jpg` where label indicates the classified label of the image. the model will automatically extract this information.
 Moreover, for federated model, split the data as follows:
 ## Two clients Example
 ### Skewed data
